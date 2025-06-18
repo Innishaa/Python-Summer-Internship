@@ -1,0 +1,5 @@
+# This file lists the dependencies for the project.
+# Use the format: package-name==version
+numpy==2.3.0
+pandas==2.3.0
+openpyxl==3.0.10
