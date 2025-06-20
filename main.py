@@ -12,9 +12,9 @@ df['First_Trade_Date'] = pd.to_datetime(df['First_Trade_Date'], format='%d-%m-%Y
 
 base_date = pd.to_datetime('2025-02-28')
 
-min_date = base_date + pd.DateOffset(months=3)
+min_date = base_date - pd.DateOffset(months=3)
 
-max_date = base_date + pd.DateOffset(months=6)
+max_date = base_date - pd.DateOffset(months=6)
 
 # Apply individual checks
 
