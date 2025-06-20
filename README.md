@@ -5,13 +5,9 @@
 # python -m venv venv
 
 # activate the environment
+# venv\Scripts\activate
 
-        """
-                Source - venv\Scripts\activate
-        
-        """
-        
 # install requirements using command
-# pip install - r requirements.txt
+# pip install -r requirements.txt
 
 # pip freeze > requirements.txt
