@@ -1,6 +1,3 @@
-# delete existing virtual environment using command
-# rmdir /s /q env 
-
 # install virtual environment using command
 # pip install virtualenv
 
@@ -8,13 +5,9 @@
 # python -m venv venv
 
 # activate the environment
+# venv\Scripts\activate
 
-        """
-                Source - venv\Scripts\activate
-        
-        """
-        
 # install requirements using command
-# pip install - r requirements.txt
+# pip install -r requirements.txt
 
 # pip freeze > requirements.txt
